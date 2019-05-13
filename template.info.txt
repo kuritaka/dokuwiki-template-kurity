@@ -1,0 +1,6 @@
+base     kurity
+author   Kurity
+date     2019-05-05
+name     Kurity DokuWiki Template
+desc     Kurity DokuWiki Template has some modifications of the DokuWiki's default template.
+url      https://dokuwiki.kurity.net/template/

@@ -1,0 +1,98 @@
+/**
+ * css/basic.less
+ **/
+
+h1 {
+    color: #666;
+    font-size: 1.8em;
+    margin: 0 0 0.444em;
+}
+h2 {
+    color: white;
+    font-size: 1.4em;
+    margin: 0 0 0.5em;
+    font-weight: normal;
+    background-color: #557697;
+    padding: 14px 0px 12px 10px;
+}
+h3 {
+    color: #666;
+    font-size: 1.4em;
+    margin: 0 0 0.888em;
+    font-weight: normal;
+    padding: 10px 0px 10px 10px;
+    background-color: #f2f2f2;
+    border-left: solid 10px #557697;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+h4 {
+    color: #666;
+    font-size: 1.4em;
+    margin: 0 0 1.0em;
+    padding: 6px 6px 0px 6px;
+    font-weight: normal;
+    /*background: linear-gradient(transparent 80%, #f2f2f2 80%);*/
+    border-left: none;
+    /*border-top: 3px solid #557697;*/
+    border-bottom: 4px solid #557697;
+}
+h5 {
+    font-size: 1.4em;
+    margin: 0 0 1.1428em;
+    padding: 6px 6px 6px 6px;
+    /*border-bottom: 3px solid #557697;*/
+    border-bottom: none;
+    border-left: 8px solid #557697;
+    font-weight: normal;
+}
+h6 {
+    font-size: .75em;
+    margin: 0 0 1.333em;
+    border-bottom: dotted 1px #cacaca;
+    font-weight: normal;
+}
+
+/**
+ * css/_links.less
+ **/
+
+
+/* any link to current page */
+.dokuwiki span.curid a {
+    /*font-weight: bold;*/
+    font-weight: normal;
+}
+
+
+/**
+ * css/design.less
+ **/
+
+#dokuwiki__header {
+    padding: 2em 0 1.5em;
+
+    .headings,
+    .tools {
+        margin-bottom: 0em;
+        width: 49%;
+    }
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+/* Fonts */
+body {
+    font: normal 90.0%/1.8 Arial, Meiryo, Chicago, sans-serif;
+    overflow: hidden;
+}
+
+/*Plugin Indexmenu*/
+.dtree {
+    font-family: Arial, Meiryo, Chicago, sans-serif;
+    font-size: 95%;
+}
